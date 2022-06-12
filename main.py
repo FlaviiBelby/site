@@ -15,7 +15,7 @@ def check(string):
 
 def add(model, seria, howmuch):
     con = p.connect(dbname='infobook', user='postgres',
-                    password='w86799107', host='localhost')
+                    password='#password#', host='localhost')
 
     cr = con.cursor()
 
@@ -27,7 +27,7 @@ def add(model, seria, howmuch):
 
 def get_data():
     con = p.connect(dbname='infobook', user='postgres',
-                    password='w86799107', host='localhost')
+                    password='#password#', host='localhost')
 
     cr = con.cursor()
 
